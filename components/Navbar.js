@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div className='text-white bg-purple-950 flex justify-between items-center px-3  min-h-14 md:flex-row flex-col'>
       <Link href={"/"} className="logo text-2xl font-bold py-2 flex gap-1">
-      <img src="logo.png" alt="" className='w-10 h-8' />
+      <img src="logo.PNG" alt="" className='w-10 h-8' />
       <div>Funds Reaper</div>
       </Link>
       {/* <ul className='flex gap-6'>

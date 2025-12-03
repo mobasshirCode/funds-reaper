@@ -54,8 +54,11 @@ Funds Reaper uses:
 
 ![screenshot](https://github.com/user-attachments/assets/e109c52b-6b06-44d6-8378-81c93a644a0c)
 
+![screenshot](https://github.com/user-attachments/assets/510a69f3-2aee-407e-81ee-a6fda7154f61)
+![screenshot](https://github.com/user-attachments/assets/cd4d0086-6ac8-4b8b-8798-a9dbf5b5e969)
+
 ## Live Preview Link 
-https://mr-pass.netlify.app/
+https://funds-reaper.vercel.app/
 
 If you like it then you can motivate me with a ⭐.
 

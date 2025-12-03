@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Funds Reaper  
+### A Patreon / Buy Me a Coffee alternative built with **Next.js, React, Tailwind CSS, and Razorpay**
 
-## Getting Started
+Funds Reaper is a modern micro-funding platform that enables creators, developers, artists, and freelancers to receive one-time payments from supporters.  
+It is fast, minimal, secure, and built to be a clean alternative to complex platforms like Patreon.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🔐 Secure Razorpay payment gateway integration  
+- ⚛️ Built with **Next.js 16**  
+- 🎨 Fully responsive UI using **Tailwind CSS**  
+- 👤 Creator profile pages  
+- 💳 One-time payment support (no subscription complexity)  
+- 🔄 Automatic Razorpay signature verification  
+- 🗄️ MongoDB + Mongoose backend  
+- 🚀 Fast, SEO-friendly, and scalable architecture  
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🖥️ Tech Stack
 
-## Learn More
+| Layer | Technology |
+|-------|------------|
+| Frontend | React, Next.js 16, Tailwind CSS |
+| Backend | Next.js API Routes, MongoDB, Mongoose |
+| Payments | Razorpay Orders API + Signature Verification |
+| Deployment | Vercel |
+| Styling | Tailwind CSS |
 
-To learn more about Next.js, take a look at the following resources:
+---
+## 💳 How Payments Work
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- User enters an amount
+- Razorpay order is generated server-side
+- User completes payment
+- Razorpay returns payment_id, order_id, and signature
+- Backend verifies signature using Razorpay utils
+- Payment is marked as done in database
+-User is redirected to success page
+---
+## 🛡️ Security
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Funds Reaper uses:
+- Razorpay’s official signature verification
+- FormData-based secure callback parsing
+- HTTPS-only production environment
+- Client never touches secret keys
+- Safe redirections
+---
+## 📸 Screenshots
+![screenshot](https://github.com/user-attachments/assets/3bb95887-304f-476b-a084-218449ef7a61)
 
-## Deploy on Vercel
+![screenshot](https://github.com/user-attachments/assets/e109c52b-6b06-44d6-8378-81c93a644a0c)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Live Preview Link 
+https://mr-pass.netlify.app/
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you like it then you can motivate me with a ⭐.
+
